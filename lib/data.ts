@@ -2,10 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import workspaceImg from "@/public/workspace.png";
+import exchangeImg from "@/public/exchange.png";
+import marketplaceImg from "@/public/marketplace-dark.png";
+import cicdImg from "@/public/cicd.png";
 export const links = [
   {
     name: "Home",
@@ -35,73 +35,72 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "B.Tech CSE",
+    location: "IIIT Bhubaneswar, Odisha, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Midway while completing my 4 year Computer Science and Engineering course, I found a job as a Full Stack Developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "FlyOnTech Solutions",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I am working currenty on Web and Blockchain on some very interesting projects enhancing my skills on all fronts. ",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Workspace",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A collaboration platform to Chat, Video Call, Share unlimited files and Edit Documents and Canvas in realtime.",
+    tags: ["Next.js", "NestJS", "MongoDB", "WebSocket", "WebRTC", "AWS"],
+    imageUrl: workspaceImg,
   },
   {
-    title: "rmtDev",
+    title: "Exchange",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A Decentralised Cryptocurrency bridge between Sepolia and Mumbai Chains secured with custom-built Proof-of-Stake consensus.",
+    tags: ["React", "Solidity", "Hardhat", "EthrDID", "MaterialUI"],
+    imageUrl: exchangeImg,
   },
   {
-    title: "Word Analytics",
+    title: "NFT Marketplace",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Platform to mint, transfer and list whole or partial NFTs for auction with support for partializing NFT ownership into 100 parts.",
+    tags: ["React", "Solidity", "AntDesign", "Openzeppelin"],
+    imageUrl: marketplaceImg,
+  },
+  {
+    title: "CICD Pipelines",
+    description:
+      "Automated pipelines to test, build and deploy a Next.js&NestJS based fullstack app on code push.",
+    tags: ["AWS", "Docker", "Kubernetes", "Jenkins", "Github Actions"],
+    imageUrl: cicdImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
   "TypeScript",
-  "React",
   "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "C++",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Node.js",
+  "NestJS",
+  "MongoDB",
+  "Solidity",
+  "De-Fi",
+  "NFT",
+  "Ether.js",
+  "Docker",
+  "Kubernetes",
+  "Jenkins",
+  "AWS",
+  "Github Actions",
 ] as const;
