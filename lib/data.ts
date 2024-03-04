@@ -67,7 +67,7 @@ export const projectsData = [
       "A Decentralised Cryptocurrency bridge between Sepolia and Mumbai Chains secured with custom-built Proof-of-Stake consensus.",
     tags: ["React", "Solidity", "Hardhat", "EthrDID", "MaterialUI"],
     imageUrl: exchangeImg,
-    link : "https://exchange.pawanudassi.tech"
+    link : "https://www.exchange.pawanudassi.tech"
   },
   {
     title: "NFT Marketplace",
