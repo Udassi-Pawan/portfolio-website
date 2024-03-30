@@ -59,7 +59,8 @@ export const projectsData = [
       "A collaboration platform to Chat, Video Call, Share unlimited files and Edit Documents and Canvas in realtime.",
     tags: ["Next.js", "NestJS", "MongoDB", "WebSocket", "WebRTC", "AWS"],
     imageUrl: workspaceImg,
-    link:"https://workspace.pawanudassi.tech"
+    link:"https://workspace.pawanudassi.tech",
+    demo : "https://www.youtube.com/embed/zH7eUT3lArk"
   },
   {
     title: "Exchange",
@@ -67,7 +68,8 @@ export const projectsData = [
       "A Decentralised Cryptocurrency bridge between Sepolia and Mumbai Chains secured with custom-built Proof-of-Stake consensus.",
     tags: ["React", "Solidity", "Hardhat", "EthrDID", "MaterialUI"],
     imageUrl: exchangeImg,
-    link : "https://www.exchange.pawanudassi.tech"
+    link: "https://www.exchange.pawanudassi.tech",
+    demo : "https://www.youtube.com/embed/NNYCB6cExBU"
   },
   {
     title: "NFT Marketplace",
@@ -75,7 +77,8 @@ export const projectsData = [
       "Platform to mint, transfer and list whole or partial NFTs for auction with support for partializing NFT ownership into 100 parts.",
     tags: ["React", "Solidity", "AntDesign", "Openzeppelin"],
     imageUrl: marketplaceImg,
-    link : "https://nftmarketplace.pawanudassi.tech"
+    link: "https://nftmarketplace.pawanudassi.tech",
+    demo : "https://www.youtube.com/embed/asZUAO3WBpA"
   },
   {
     title: "CICD Pipelines",
@@ -85,7 +88,7 @@ export const projectsData = [
     imageUrl: cicdImg,
     link : "https://github.com/stars/Udassi-Pawan/lists/devops"
   },
-] as const;
+];
 
 export const skillsData = [
   "HTML",

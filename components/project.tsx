@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  demo
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -66,6 +67,7 @@ export default function Project({
         group-even:right-[initial] group-even:-left-40"
         />
       </section>
+      {title != "CICD Pipelines" && <iframe className="mt-2 mb-8" width="100%" height="310" src={`${demo}?autoplay=1&mute=1&cc_load_policy=1`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>}
     </motion.div>
   );
 }
