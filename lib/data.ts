@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2024",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full Stack Developer",
     location: "FlyOnTech Solutions",
     description:
       "I am working currenty on Web and Blockchain on some very interesting projects enhancing my skills on all fronts. ",
@@ -66,7 +66,7 @@ export const projectsData = [
     title: "Exchange",
     description:
       "A Decentralised Cryptocurrency bridge between Sepolia and Mumbai Chains secured with custom-built Proof-of-Stake consensus.",
-    tags: ["React", "Solidity", "Hardhat", "EthrDID", "MaterialUI"],
+    tags: ["React", "Solidity", "Hardhat", "MaterialUI"],
     imageUrl: exchangeImg,
     link: "https://www.exchange.pawanudassi.tech",
     demo : "https://www.youtube.com/embed/NNYCB6cExBU"
