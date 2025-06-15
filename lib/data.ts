@@ -48,11 +48,27 @@ export const experiencesData = [
     description:
       "I am working currenty on Web and Blockchain on some very interesting projects enhancing my skills on all fronts. ",
     icon: React.createElement(CgWorkAlt),
-    date: "Nov 2023 - Present",
+    date: "Nov 2023 - Mar 2025",
+  },
+  {
+    title: "DevOps Engineer",
+    location: "Care Health Insurance",
+    description:
+      "Working on building and maintaining CICD pipelines, automating deployments, and ensuring high availability of production systems.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2025 - Present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "CICD Pipelines",
+    description:
+      "Automated pipelines to test, build and deploy a Next.js&NestJS based fullstack app on code push.",
+    tags: ["AWS", "Docker", "Kubernetes", "Jenkins", "Github Actions"],
+    imageUrl: cicdImg,
+    link: "https://github.com/stars/Udassi-Pawan/lists/devops"
+  },
   {
     title: "Workspace",
     description:
@@ -91,6 +107,14 @@ export const projectsData = [
 ];
 
 export const skillsData = [
+  "AWS",
+  "Linux",
+  "Docker",
+  "Kubernetes",
+  "Jenkins",
+  "Ansible",
+  "Terraform",
+  "Github Actions",
   "HTML",
   "CSS",
   "TypeScript",
@@ -98,16 +122,10 @@ export const skillsData = [
   "Tailwind",
   "C++",
   "Express",
-  "Node.js",
   "NestJS",
   "MongoDB",
   "Solidity",
   "De-Fi",
   "NFT",
   "Ether.js",
-  "Docker",
-  "Kubernetes",
-  "Jenkins",
-  "AWS",
-  "Github Actions",
 ] as const;

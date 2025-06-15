@@ -18,25 +18,21 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        My love for tech and building awesome products made me choose{" "}
-        <span className="font-medium">Computer Science Engineering</span> as a
-        major. During my course I worked on some interesting projects and
-        finished them end-to-end. I soon found a role as a Full-Stack Developer.
-        Primary Areas of my expertise are Web, Blockchain and DevOps. I also
-        have a knack for problem solving and have experience of Competitive
-        Programming.{" "}
-        <span>
-          I am continually expanding my skill set and am presently exploring
-          better opportunities to level up.
-        </span>
+      <p>
+        My passion for technology and building impactful products led me to pursue a degree in{" "}
+        <span className="font-medium">Computer Science Engineering</span>.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        cricket, scrolling memes, and biking. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I'm currently
-        learning how to play guitar.
+        I started my career as a Full‑Stack Developer—an invaluable learning experience—but have since dedicated myself fully to my role as a DevOps Engineer.
+      </p>
+
+      <p className="mb-5">
+        I have a knack for exploring new technologies and hands-on experience in Full‑Stack Web and Blockchain development. I’m constantly expanding my skill set and deepening my expertise.
+      </p>
+
+      <p>
+        <span className="italic">When I’m away from the terminal</span>, I enjoy playing cricket, gymming, and going on long distance bicycle rides. I’m also an avid learner—currently teaching myself to play the guitar.
       </p>
     </motion.section>
   );

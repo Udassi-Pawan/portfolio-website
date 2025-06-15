@@ -65,11 +65,10 @@ export default function Intro() {
         <p>
           Hello, I'm <span className="font-bold">Pawan.</span>
         </p>
-        A <span className="font-bold">Full-Stack Developer</span>{" "}
-        <span className=""> with expertise in </span>{" "}
-        <span className="underline">Web</span>,{" "}
-        <span className="underline">Blockchain</span> and{" "}
-        <span className="underline">DevOps</span>
+        A <span className="font-bold">DevOps Engineer</span>{" "}
+        <span className=""> with background in </span>{" "}
+        <span className="underline">FullStack Web</span> and{" "}
+        <span className="underline">Blockchain</span>{" "}
       </motion.h1>
 
       <motion.div
