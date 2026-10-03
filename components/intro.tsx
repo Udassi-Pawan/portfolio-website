@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/profile.jpeg"
-              alt="Ricardo portrait"
+              alt="Pawan Udassi"
               width="192"
               height="192"
               quality="95"
@@ -40,36 +40,27 @@ export default function Intro() {
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <p>
-          Hello, I'm <span className="font-bold">Pawan.</span>
-        </p>
-        A <span className="font-bold">DevOps Engineer</span>{" "}
-        <span className=""> with background in </span>{" "}
-        <span className="underline">FullStack Web</span> and{" "}
-        <span className="underline">Blockchain</span>{" "}
-      </motion.h1>
+  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <p>
+    Hello, I'm <span className="font-medium">Pawan.</span>
+  </p>
+  A DevOps Engineer building and operating{" "}
+  <span className="font-semibold underline underline-offset-4">
+    reliable
+  </span>{" "}
+  cloud infrastructure and{" "}
+  <span className="font-semibold underline underline-offset-4">
+    production
+  </span>{" "}
+  systems.
+</motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-5 px-4 text-lg font-medium"
@@ -93,7 +84,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/1U_AkOS8hk6VNGDGESGCunADkkk1qbCGT/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1tF-kagainsXUNR-k9doge6QbjVHQQdPR/view?usp=sharing"
           download
           target="_blank"
         >
@@ -103,7 +94,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/pawan-udassi-4b56161b8/"
+          href="https://www.linkedin.com/in/pawan-kumar-4b56161b8"
           target="_blank"
         >
           <BsLinkedin />

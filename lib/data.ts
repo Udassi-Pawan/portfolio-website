@@ -1,11 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import workspaceImg from "@/public/workspace.png";
-import exchangeImg from "@/public/exchange.png";
-import marketplaceImg from "@/public/marketplace-dark.png";
 import cicdImg from "@/public/cicd.png";
+
 export const links = [
   {
     name: "Home",
@@ -16,16 +14,16 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
   },
   {
     name: "Contact",
@@ -38,15 +36,15 @@ export const experiencesData = [
     title: "B.Tech CSE",
     location: "IIIT Bhubaneswar, Odisha, India",
     description:
-      "Midway while completing my 4 year Computer Science and Engineering course, I found a job as a Full Stack Developer.",
+      "Completed a 4-year Computer Science and Engineering degree while gaining hands-on experience building software and working with cloud technologies.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    date: "2021 - 2025",
   },
   {
     title: "Full Stack Developer",
     location: "FlyOnTech Solutions",
     description:
-      "I am working currenty on Web and Blockchain on some very interesting projects enhancing my skills on all fronts. ",
+      "Built web applications and backend services, working across application development, APIs, databases, and cloud deployments.",
     icon: React.createElement(CgWorkAlt),
     date: "Nov 2023 - Mar 2025",
   },
@@ -54,7 +52,7 @@ export const experiencesData = [
     title: "DevOps Engineer",
     location: "Care Health Insurance",
     description:
-      "Working on building and maintaining CICD pipelines, automating deployments, and ensuring high availability of production systems.",
+      "Manage production AWS and Kubernetes infrastructure, troubleshoot complex application and infrastructure issues, and support reliable deployments. Work across EKS upgrades, networking, storage, databases, observability, and infrastructure automation.",
     icon: React.createElement(CgWorkAlt),
     date: "Apr 2025 - Present",
   },
@@ -62,47 +60,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CICD Pipelines",
-    description:
-      "Automated pipelines to test, build and deploy a Next.js&NestJS based fullstack app on code push.",
-    tags: ["AWS", "Docker", "Kubernetes", "Jenkins", "Github Actions"],
-    imageUrl: cicdImg,
-    link: "https://github.com/stars/Udassi-Pawan/lists/devops"
-  },
-  {
     title: "Workspace",
     description:
-      "A collaboration platform to Chat, Video Call, Share unlimited files and Edit Documents and Canvas in realtime.",
+      "A collaboration platform to chat, video call, share files, and edit documents and canvas in real time.",
     tags: ["Next.js", "NestJS", "MongoDB", "WebSocket", "WebRTC", "AWS"],
     imageUrl: workspaceImg,
-    link:"https://workspace.pawanudassi.site",
-    demo : "https://www.youtube.com/embed/zH7eUT3lArk"
+    link: "https://github.com/stars/Udassi-Pawan/lists/workspace",
+    demo: "https://www.youtube.com/embed/zH7eUT3lArk",
   },
   {
-    title: "Exchange",
+    title: "Workspace — AWS & CI/CD",
     description:
-      "A Decentralised Cryptocurrency bridge between Sepolia and Mumbai Chains secured with custom-built Proof-of-Stake consensus.",
-    tags: ["React", "Solidity", "Hardhat", "MaterialUI"],
-    imageUrl: exchangeImg,
-    link: "https://www.exchange.pawanudassi.site",
-    demo : "https://www.youtube.com/embed/NNYCB6cExBU"
-  },
-  {
-    title: "NFT Marketplace",
-    description:
-      "Platform to mint, transfer and list whole or partial NFTs for auction with support for partializing NFT ownership into 100 parts.",
-    tags: ["React", "Solidity", "AntDesign", "Openzeppelin"],
-    imageUrl: marketplaceImg,
-    link: "https://nftmarketplace.pawanudassi.site",
-    demo : "https://www.youtube.com/embed/asZUAO3WBpA"
-  },
-  {
-    title: "CICD Pipelines",
-    description:
-      "Automated pipelines to test, build and deploy a Next.js&NestJS based fullstack app on code push.",
-    tags: ["AWS", "Docker", "Kubernetes", "Jenkins", "Github Actions"],
+      "Deployed Workspace on AWS using Docker and Kubernetes and wired Jenkins and GitHub Actions to build, test, and ship updates on every push.",
+    tags: ["AWS", "Docker", "Kubernetes", "Jenkins", "GitHub Actions"],
     imageUrl: cicdImg,
-    link : "https://github.com/stars/Udassi-Pawan/lists/devops"
+    link: "https://github.com/stars/Udassi-Pawan/lists/devops",
   },
 ];
 
@@ -114,18 +86,21 @@ export const skillsData = [
   "Jenkins",
   "Ansible",
   "Terraform",
-  "Github Actions",
-  "HTML",
-  "CSS",
+  "GitHub Actions",
+  "GitLab",
+  "Nginx",
+  "AWS VPC",
+  "AWS IAM",
+  "Amazon S3",
+  "Amazon RDS",
+  "AWS Lambda",
+  "Networking",
+  "CI/CD",
+  "Observability",
+  "Infrastructure Automation",
+  "Production Troubleshooting",
   "TypeScript",
   "Next.js",
-  "Tailwind",
-  "C++",
-  "Express",
   "NestJS",
   "MongoDB",
-  "Solidity",
-  "De-Fi",
-  "NFT",
-  "Ether.js",
 ] as const;

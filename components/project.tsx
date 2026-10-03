@@ -31,13 +31,15 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+      <section className="bg-gray-100 max-w-[46rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:min-h-[22rem] sm:h-auto hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+        <div className="flex flex-col gap-4 py-6 px-5 sm:py-10 sm:pl-10 sm:pr-6 sm:max-w-[62%] sm:min-h-[22rem] sm:group-even:ml-[15rem] sm:group-even:max-w-[58%]">
+          <h3 className="text-xl sm:text-2xl font-semibold leading-snug">
+            {title}
+          </h3>
+          <p className="leading-relaxed text-gray-700 dark:text-white/70 max-w-prose">
             {description}
           </p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap gap-2 mt-auto pt-2">
             {tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
@@ -67,7 +69,19 @@ export default function Project({
         group-even:right-[initial] group-even:-left-40"
         />
       </section>
-      {title != "CICD Pipelines" && <iframe className="mt-2 mb-8" width="100%" height="310" src={`${demo}?autoplay=1&mute=1&cc_load_policy=1`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>}
+      {demo && (
+        <iframe
+          className="mt-2 mb-8"
+          width="100%"
+          height="310"
+          src={`${demo}?autoplay=1&mute=1&cc_load_policy=1`}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      )}
     </motion.div>
   );
 }
