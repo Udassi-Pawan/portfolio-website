@@ -1,35 +1,11 @@
 import React from "react";
+import { BsLinkedin } from "react-icons/bs";
 import { CgWorkAlt } from "react-icons/cg";
+import { FaAws } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { SiKubernetes } from "react-icons/si";
 import workspaceImg from "@/public/workspace.png";
 import cicdImg from "@/public/cicd.png";
-
-export const links = [
-  {
-    name: "Home",
-    hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
-] as const;
 
 export const experiencesData = [
   {
@@ -55,6 +31,25 @@ export const experiencesData = [
       "Manage production AWS and Kubernetes infrastructure, troubleshoot complex application and infrastructure issues, and support reliable deployments. Work across EKS upgrades, networking, storage, databases, observability, and infrastructure automation.",
     icon: React.createElement(CgWorkAlt),
     date: "Apr 2025 - Present",
+  },
+] as const;
+
+export const achievementsData = [
+  {
+    title: "Certified Kubernetes Administrator (CKA)",
+    icon: React.createElement(SiKubernetes),
+    href: "https://www.credly.com/badges/0158417f-0d80-4c23-89bc-a63c574006dd/public_url",
+  },
+  {
+    title: "AWS Certified Solutions Architect – Associate (SAA-C03)",
+    icon: React.createElement(FaAws),
+    href: "https://www.credly.com/badges/38977318-fe53-4090-b2bb-970dfb43afbb/public_url",
+  },
+  {
+    title:
+      "200+ consecutive days (ongoing) of publishing DevOps learning content on LinkedIn.",
+    icon: React.createElement(BsLinkedin),
+    href: "https://www.linkedin.com/in/pawan-kumar-4b56161b8",
   },
 ] as const;
 
